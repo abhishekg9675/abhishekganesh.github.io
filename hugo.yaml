@@ -12,6 +12,10 @@ params:
     emoji: 🚴
     subtitle: "Cyclist. Photographer. Engineer."
 
+  customCSS:
+    - css/custom.css
+
+
 menu:
   main:
     - name: Cycling
@@ -23,6 +27,9 @@ menu:
     - name: Cities
       url: /cities/
       weight: 3
+    - name: Posts
+      url: /posts/
+      weight: 4
     - name: About
       url: /about/
-      weight: 4
+      weight: 5

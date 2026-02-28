@@ -1,0 +1,18 @@
+<figure class="photo-card">
+    <img src="{{ .Get "src" }}" alt="{{ .Get "caption" }}" loading="lazy">
+    <figcaption class="photo-meta">
+        <span class="photo-caption">{{ .Get "caption" }}</span>
+        <span class="photo-details">
+            {{ if and (.Get "lat") (.Get "lon") }}
+            <a class="photo-location" 
+               href="https://www.google.com/maps?q={{ .Get "lat" }},{{ .Get "lon" }}" 
+               target="_blank">
+                📍 {{ .Get "lat" }}, {{ .Get "lon" }}
+            </a>
+            {{ end }}
+            {{ with .Get "datetime" }}
+            <span class="photo-datetime">🕐 {{ . }}</span>
+            {{ end }}
+        </span>
+    </figcaption>
+</figure>

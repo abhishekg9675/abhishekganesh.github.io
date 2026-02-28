@@ -10,7 +10,7 @@ description: "My first blog post"
 This is my first post on my personal blog. I'll be sharing:
 
 - Cycling adventures
+- Travel Stories
 - Photography
-- Career insights
 
 Stay tuned!
