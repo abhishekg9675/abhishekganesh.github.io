@@ -1,0 +1,28 @@
+baseURL: "https://abhishekg9675.github.io/"
+languageCode: en-us
+title: Abhishek Ganesh
+theme: stack
+
+params:
+  author:
+    name: Abhishek Ganesh
+  description: Cycling Adventures, exploring the world, and everything else.
+
+  sidebar:
+    emoji: 🚴
+    subtitle: "Cyclist. Photographer. Engineer."
+
+menu:
+  main:
+    - name: Cycling
+      url: /cycling/
+      weight: 1
+    - name: Running
+      url: /running/
+      weight: 2
+    - name: Cities
+      url: /cities/
+      weight: 3
+    - name: About
+      url: /about/
+      weight: 4
